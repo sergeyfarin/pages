@@ -4,7 +4,7 @@ export default {
   /*
   ** Headers of the page
   */
- head: {
+  head: {
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
@@ -52,5 +52,6 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  router: { base: '/pages/' }
 }
